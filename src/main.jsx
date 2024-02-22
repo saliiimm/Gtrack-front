@@ -5,6 +5,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import WorkSpace from "./pages/WorkSpace/WorkSpace.jsx";
 import LandingPage from "./pages/LandingPage/LandingPage.jsx";
 import Inbox from "./pages/Inbox/Inbox.jsx";
+import Signin from "./pages/Signin/Signin.jsx";
 
 const router = createBrowserRouter([
   {
@@ -18,6 +19,10 @@ const router = createBrowserRouter([
   {
     path: "/Inbox",
     element: <Inbox />,
+  },
+  {
+    path: "/signin",
+    element: <Signin />,
   },
   {
     path: "*",
