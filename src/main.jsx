@@ -1,14 +1,15 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import App from "./App.jsx";
 import "./index.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import WorkSpace from "./Pages/WorkSpace/WorkSpace.jsx";
+import LandingPage from "./pages/LandingPage.jsx";
+
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <App />,
+    element: <LandingPage />,
   },
   {
     path: "/WorkSpace",
