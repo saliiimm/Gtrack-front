@@ -1,17 +1,11 @@
-
-
 import TopNav from "../TopNav/TopNav";
-import "./NavBar.css"
+import "./NavBar.css";
 const NavBar = () => {
-    return (
- <>  
- <TopNav/>
- 
- </>
-   
-
-
-    );
-}
+  return (
+    <>
+      <TopNav />
+    </>
+  );
+};
 
 export default NavBar;

@@ -2,9 +2,8 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import WorkSpace from "./Pages/WorkSpace/WorkSpace.jsx";
-import LandingPage from "./pages/LandingPage.jsx";
-
+import WorkSpace from "./pages/WorkSpace/WorkSpace.jsx";
+import LandingPage from "./pages/LandingPage/LandingPage.jsx";
 
 const router = createBrowserRouter([
   {

@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import "./Nav.css";
 import Logo from "../../assets/logoGhack.svg";
-const Navbar = () => {
+const Nav = () => {
   const [isScrolled, setIsScrolled] = useState(false);
 
   // Event listener for window scroll
@@ -36,4 +36,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+export default Nav;
