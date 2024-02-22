@@ -1,0 +1,88 @@
+.MyWork{
+    height: 507px;
+    width: 100%;
+    border: 3px solid #EFEFEF;
+    border-radius: 16px;
+    font-family: "Outfit", sans-serif;
+}
+.MyWork .title-O{
+   
+    padding: 20px;
+}
+.title-L{
+   
+    padding:0 20px;
+}
+.title-L h3{
+    font-size: 16px;
+
+}
+.tache{
+    display: flex;
+justify-content: space-between;
+align-items: center;
+
+}
+.question-content{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ 
+    gap: 10px;
+    padding: 0 20px;
+    overflow: scroll;
+    height: 400px;
+   
+}
+.question{
+   
+  width: 100%;
+}
+.question span{
+
+    display: flex;
+
+  height: 60px;
+ gap: 10px;
+  align-items: center;
+  cursor: pointer;
+  overflow-x: hidden;
+ 
+}
+.question span svg{
+color: #6A6A6A;
+  
+ 
+}
+
+.rep {
+   
+    max-height: 0px;
+    overflow: hidden;
+    transition: max-height 0.8s ease-in-out ;
+    color: #4e5860;
+   
+ 
+} 
+.rep ul{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.rep li{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.active-rep{
+    max-height: 500px;
+}
+.question:has(.active-rep) .tache>span svg{
+    transform: rotate(90deg);
+}
+.question .tache>span svg{
+    transition: .4s ease-in;
+}
+
+

@@ -1,0 +1,11 @@
+.outils{
+    padding: 20px;
+    display: flex;
+    gap: 10px;
+}
+.left,.right{
+    width: 50%;
+   display: flex;
+   flex-direction: column;
+   gap: 10px;
+}
