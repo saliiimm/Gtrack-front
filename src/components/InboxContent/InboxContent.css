@@ -1,0 +1,51 @@
+.contentI{
+    padding: 20px;
+    height: 100%;
+}
+.messageList{
+    border: 3px solid #EFEFEF;
+    border-radius: 16px;
+    font-family: "Outfit", sans-serif;
+    width: 100%;
+   
+}
+.messageList li{
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    color: #6A6A6A;
+    cursor: pointer;
+}
+.titre>span{
+    display: block;
+    background-color: #FF7A00;
+    height: 16px;
+    width: 16px;
+    border-radius: 2px;
+    transition: 0s;
+   
+}
+.messageList li:hover  .titre>span{
+    transform: rotate(360deg);
+    transition:  0.5s;
+}
+.titre{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.titre h4{
+  font-weight: 400;
+  font-size: 20px;
+}
+.username{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.messageList li:not(:last-child){
+ 
+   border-bottom: 3px solid #EFEFEF;
+}

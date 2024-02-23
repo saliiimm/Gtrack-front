@@ -5,9 +5,9 @@ import WorkSpaceContain from "../../components/WorkSpaceContain/WorkSpaceContain
 const WorkSpace = () => {
   return (
     <>
-      <NavBar />
-      <div style={{ display: "flex", width: "100%" }}>
-        <SideBar />
+      <NavBar  />
+      <div style={{ display: "flex", width: "100%" ,height:"90vh"}}>
+        <SideBar choix={1}/>
         <WorkSpaceContain />
       </div>
     </>
