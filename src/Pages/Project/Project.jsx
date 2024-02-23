@@ -1,4 +1,4 @@
-import { isMobile, MobileView } from "react-device-detect";
+import { isMobile } from "react-device-detect";
 import NavBar from "../../components/NavBar/NavBar";
 
 import SideBar from "../../components/SideBar/SideBar";
@@ -6,10 +6,10 @@ import SideBar from "../../components/SideBar/SideBar";
 import DndContent from "../../components/DndContent/DndContent";
 import BetterExp from "../../components/BetterExp/BetterExp";
 
-function Projects() {
+function Project() {
   // create state
 
-  if (isMobile || MobileView) {
+  if (isMobile) {
     return <BetterExp />;
   }
 
@@ -24,4 +24,4 @@ function Projects() {
   );
 }
 
-export default Projects;
+export default Project;
