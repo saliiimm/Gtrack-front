@@ -2,13 +2,13 @@ import Collaboration from "../../components/Collaboration/Collaboration";
 import FriendlyTolls from "../../components/FriendlyTools/FriendlyTolls";
 import Home from "../../components/Home/Home";
 import Footer from "../../components/Footer/Footer";
-import Nav from "../../components/NavBar/Nav";
 import PerfectFit from "../../components/PerfectFit/PerfectFit";
+import Navi from "../../components/NavBar/Navi";
 
 const LandingPage = () => {
   return (
     <div>
-      <Nav />
+      <Navi />
       <Home />
       <Collaboration />
       <FriendlyTolls />

@@ -5,7 +5,7 @@ import { FiMenu, FiX } from "react-icons/fi";
 import { Link } from "react-router-dom";
 import { HashLink } from "react-router-hash-link";
 
-const Nav = () => {
+const Navi = () => {
   const [isScrolled, setIsScrolled] = useState(false);
   const [menu, setMenu] = useState(false);
 
@@ -105,4 +105,4 @@ const Nav = () => {
   );
 };
 
-export default Nav;
+export default Navi;
