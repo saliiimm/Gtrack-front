@@ -1,10 +1,11 @@
-import { isMobile, MobileView } from "react-device-detect";
+import { isMobile } from "react-device-detect";
 import NavBar from "../../components/NavBar/NavBar";
 import SideBar from "../../components/SideBar/SideBar";
 import WorkSpaceContain from "../../components/WorkSpaceContain/WorkSpaceContain";
 import BetterExp from "../../components/BetterExp/BetterExp";
+
 const WorkSpace = () => {
-  if (isMobile || MobileView) {
+  if (isMobile) {
     return <BetterExp />;
   }
 

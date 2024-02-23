@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import monitor from "../../assets/monitor.svg";
 import "./BetterExp.css";
 const BetterExp = () => {
@@ -7,7 +8,10 @@ const BetterExp = () => {
         <img src={monitor} alt="monitor" />
         <h3>For a better experience use Desktop</h3>
       </div>
-      <button className="get-back">Go Back</button>
+      <Link to="/">
+        {" "}
+        <button className="get-back">Go Back</button>
+      </Link>
     </div>
   );
 };

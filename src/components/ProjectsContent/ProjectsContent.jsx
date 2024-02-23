@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./ProjectsContent.css";
 
 const ProjectsContent = () => {
@@ -16,7 +17,9 @@ const ProjectsContent = () => {
               any privet thing open because the app will take screenshots of
               your screen at random moment during you’re working hours{" "}
             </p>
-            <button className="btn-join">Join session</button>
+            <Link to="/project">
+              <button className="btn-join">Join session</button>
+            </Link>
           </div>
         </div>
       </div>
