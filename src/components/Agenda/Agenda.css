@@ -1,0 +1,21 @@
+.Agenda{
+  
+    height: 447px;
+    width: 100%;
+    border: 3px solid #EFEFEF;
+    border-radius: 16px;
+  
+}
+.title-O {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.title-O h4{
+font-size: 16px;
+color: #6A6A6A;
+}
+.Agenda .title-O{
+    border-bottom: 3px solid #EFEFEF;
+    padding: 20px;
+}

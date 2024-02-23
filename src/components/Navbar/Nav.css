@@ -1,0 +1,70 @@
+nav {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-inline: 10%;
+  width: 100%;
+  height: 70px;
+  background-color: white;
+  z-index: 99;
+}
+
+nav.scrolled {
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Customize shadow as needed */
+}
+
+.nav-left {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  gap: 3px;
+}
+
+.nav-left p {
+  font-size: 20px;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 27px;
+}
+
+nav ul li,
+.nav-left,
+nav button {
+  cursor: pointer;
+}
+
+nav ul li,
+nav p,
+nav button {
+  font-weight: bold;
+}
+
+nav button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  width: 120px;
+  height: 35px;
+  border-radius: 8px;
+}
+
+.nav-right .gradient {
+  background: rgb(0, 102, 255);
+  background: linear-gradient(
+    90deg,
+    rgba(0, 102, 255, 1) 0%,
+    rgba(250, 0, 255, 1) 100%
+  );
+  color: white;
+}
+
+@media screen and (max-width: 768px) {
+  nav {
+    padding-inline: 5%;
+  }
+}

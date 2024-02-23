@@ -1,0 +1,82 @@
+.home-section {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-block: 170px;
+  margin-bottom: 50px;
+}
+
+.home-section button {
+  cursor: pointer;
+}
+
+.newsletter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  padding-inline: 17px;
+  padding-block: 7px;
+  border-radius: 15px;
+  background-color: black;
+  color: white;
+  border: none;
+}
+
+.home-section h2 {
+  font-size: 65px;
+  font-weight: bold;
+  background-image: linear-gradient(
+    90deg,
+    rgba(0, 102, 255, 1) 0%,
+    rgba(250, 0, 255, 1) 100%
+  );
+  background-repeat: repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+  max-width: 50%;
+  text-align: center;
+}
+
+.home-section p {
+  margin-top: 25px;
+}
+
+.home-section .get-started {
+  margin-top: 65px;
+  width: 270px;
+  height: 47px;
+  border-radius: 25px;
+  font-size: 17px;
+  font-weight: bold;
+  background: rgb(0, 102, 255);
+  background: linear-gradient(
+    90deg,
+    rgba(250, 0, 255, 1) 0%,
+    rgba(0, 102, 255, 1) 100%
+  );
+  color: white;
+  border: none;
+}
+
+.home-section a {
+  margin-top: 8px;
+  color: black;
+  font-size: 12px;
+}
+
+@media screen and (max-width: 1025px) {
+  .home-section h2 {
+    font-size: 50px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .home-section h2 {
+    font-size: 35px;
+  }
+}
