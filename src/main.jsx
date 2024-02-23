@@ -4,13 +4,14 @@ import "./index.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 
-import WorkSpace from './Pages/WorkSpace/WorkSpace'
-import LandingPage from "./Pages/LandingPage/LandingPage";
-import Test from "./Pages/Project/Test";
+import WorkSpace from './Pages/WorkSpace/WorkSpace.jsx'
+import LandingPage from "./Pages/LandingPage/LandingPage.jsx";
+import Test from "./Pages/Project/Test.jsx";
 import Projects from "./Pages/Project/Projects";
-import Dashboard from "./pages/Dashboard/Dashboard.jsx";
-import Inbox from "./pages/Inbox/Inbox.jsx";
-import Signin from "./pages/Signin/Signin.jsx";
+
+import Dashboard from "./Pages/Dashboard/Dashboard.jsx";
+import Inbox from "./Pages/Inbox/Inbox.jsx";
+import Signin from "./Pages/Signin/Signin.jsx";
 
 
 
