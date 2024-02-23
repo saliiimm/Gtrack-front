@@ -138,12 +138,15 @@ nav button {
     justify-content: flex-start;
   }
 
-  .nav-right button {
+  .nav-right a button{
     width: 100%;
 
     font-size: 20px;
   }
-  .nav-right button:first-child {
+  .nav-right a{
+    width: 100%;
+  }
+  .nav-right a:first-child button {
     text-decoration: underline;
   }
 }
