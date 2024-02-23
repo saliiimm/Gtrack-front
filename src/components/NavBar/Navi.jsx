@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import "./Nav.css";
+import "./Navi.css"
 import Logo from "../../assets/logoGhack.svg";
 import { FiMenu, FiX } from "react-icons/fi";
 import { Link } from "react-router-dom";
