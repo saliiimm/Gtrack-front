@@ -136,6 +136,12 @@
   }
 }
 @media screen and (max-width: 480px) {
+  .grid-board {
+    width: 90%;
+  }
+  .borad-box {
+    width: 100%;
+  }
 }
 @media screen and (max-width: 414px) {
 }
