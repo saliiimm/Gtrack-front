@@ -11,7 +11,7 @@ nav {
 }
 
 nav.scrolled {
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Customize shadow as needed */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
 .items-container{
   width: 100%;
