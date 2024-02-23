@@ -3,28 +3,28 @@ import "./FriendlyTools.css";
 const FriendlyTolls = () => {
   const boardData = [
     {
-      title: "+50%",
-      description: "de frequence sur les rdvs pris en ligne",
+      title: "+70%",
+      description: "de taches realisees en respectant les temps",
     },
     {
       title: "4x",
-      description: "Moins d'oubli avec les rappels sms des rendez-vous",
+      description: "Plus de temps gagne en organisation",
     },
     {
       title: "+50%",
-      description: "des rdvs en ligne pris en dehors des horaires d'ouverture",
+      description: "d'efficacite supplmentaire chez les employes",
     },
     {
       title: "+40000",
-      description: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      description: "Entreprises satisfaites par le produit",
     },
     {
       title: "4 RDV pris toutes les secondes",
-      description: "> 5 Milliards $ de rendez-vous vendus",
+      description: "> 5 Milliards $ de benefice",
     },
     {
-      title: "+50%",
-      description: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      title: "+90%",
+      description: "Taux de satisfaction client",
     },
   ];
 
@@ -42,7 +42,7 @@ const FriendlyTolls = () => {
             </span>
             <p>{item.description}</p>
             <span>
-              <button>add somthing</button>
+              <button>Take a look</button>
             </span>
           </div>
         ))}
