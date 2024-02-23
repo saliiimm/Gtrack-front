@@ -56,7 +56,9 @@ const SignUp = () => {
               />
             </div>
 
-            <button className="btn-start">Start</button>
+            <Link to="/WorkSpace">
+              <button className="btn-start">Start</button>
+            </Link>
           </form>
 
           <span></span>

@@ -2,7 +2,7 @@ import "./Collaboration.css";
 import CollabImg from "../../assets/CollabImg.svg";
 const Collaboration = () => {
   return (
-    <section className="collaboration-section">
+    <section className="collaboration-section" id="collaboration">
       <div className="part-text">
         <h2>Improve Collaboration</h2>{" "}
         <p>
