@@ -2,10 +2,14 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import WorkSpace from "./Pages/WorkSpace/WorkSpace.jsx";
-import LandingPage from "./Pages/LandingPage/LandingPage.jsx";
-import Inbox from "./Pages/Inbox/Inbox.jsx";
-import Projects from "./Pages/Projects/Projects.jsx";
+
+import WorkSpace from "./pages/WorkSpace/WorkSpace.jsx";
+import LandingPage from "./pages/LandingPage/LandingPage.jsx";
+import Inbox from "./pages/Inbox/Inbox.jsx";
+import Projects from "./pages/Projects/Projects.jsx";
+import Signin from "./pages/Signin/Signin.jsx";
+
+
 
 const router = createBrowserRouter([
   {
@@ -23,6 +27,8 @@ const router = createBrowserRouter([
   {
     path: "/projects",
     element: <Projects />,
+    path: "/signin",
+    element: <Signin />,
   },
   {
     path: "*",
