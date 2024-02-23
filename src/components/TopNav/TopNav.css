@@ -1,46 +1,47 @@
-.topnav{
-    width: 100%;
-    height: 70px;
-    background-color: #0C0E26;
-    display: flex;
-    justify-content: space-between;
-    padding: 0 50px;
-    align-items: center;
+.topnav {
+  width: 100%;
+  height: 70px;
+  background-color: #0c0e26;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 50px;
+  align-items: center;
 }
-.search input{
-    background-color: #474865;
-    border: none;
-    height: 30px;
-    width: 414px;
-    border-radius: 4px;
-    padding: 0 50px;
-    color: white;
+.search input {
+  background-color: #474865;
+  border: none;
+  height: 30px;
+  width: 414px;
+  border-radius: 4px;
+  padding: 0 50px;
+  color: white;
 }
-.search{
-    position: relative;
-    display: flex;
-    align-items: center;
-    
+.search {
+  position: relative;
+  display: flex;
+  align-items: center;
 }
 .search input::placeholder {
-    font-family:sans-serif 'Outfit';
-    color: white;
+  font-family: sans-serif "Outfit";
+  color: white;
 }
-.search svg{
-    position: absolute;
-    color: white;
-    font-size: 15px;
-    left: 15px;
+.search svg {
+  position: absolute;
+  color: white;
+  font-size: 15px;
+  left: 15px;
 }
-.profilMenu{
-    display: flex;
-    justify-content: space-between;
-   gap: 30px;
-    align-items: center;
+.profilMenu {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  align-items: center;
 }
-.profilMenu svg{
-   
-    color: white;
-    font-size: 25px;
- 
+.profilMenu svg {
+  color: white;
+  font-size: 25px;
+}
+
+.nav-left.logo p {
+  color: white;
 }
