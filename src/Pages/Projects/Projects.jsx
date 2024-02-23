@@ -4,6 +4,7 @@ import NavBar from "../../components/NavBar/NavBar";
 import SideBar from "../../components/SideBar/SideBar";
 import BetterExp from "../../components/BetterExp/BetterExp";
 const Projects = () => {
+  // mobil check
   if (isMobile) {
     return <BetterExp />;
   }
