@@ -181,16 +181,18 @@ const rows = [
 
 const DashboardTable = () => {
   return (
-    <div style={{ height: 430, width: "98%", marginLeft: "10px" }}>
+    <div style={{ height: "100%", width: "98%", marginLeft: "10px",padding:"30px 40px 0 40px"}}>
       <DataGrid
+      sx={{paddingTop:"20px"}}
+      
         rows={rows}
         columns={columns}
         initialState={{
           pagination: {
-            paginationModel: { page: 0, pageSize: 5 },
+            paginationModel: { page: 0, pageSize: 7},
           },
         }}
-        pageSizeOptions={[5, 10]}
+        pageSizeOptions={[7, 10]}
         checkboxSelection
         slots={{
           toolbar: CustomToolbar,

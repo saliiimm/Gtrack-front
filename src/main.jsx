@@ -2,8 +2,8 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-
 import WorkSpace from "./pages/WorkSpace/WorkSpace.jsx";
+import Dashboard from "./pages/Dashboard/Dashboard.jsx";
 import LandingPage from "./pages/LandingPage/LandingPage.jsx";
 import Inbox from "./pages/Inbox/Inbox.jsx";
 import Projects from "./pages/Projects/Projects.jsx";
@@ -25,6 +25,8 @@ const router = createBrowserRouter([
     element: <Inbox />,
   },
   {
+    path: "/Dashboard",
+    element: <Dashboard />,
     path: "/projects",
     element: <Projects />,
     path: "/signin",

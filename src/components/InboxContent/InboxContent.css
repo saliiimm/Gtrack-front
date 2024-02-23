@@ -16,6 +16,7 @@
     justify-content: space-between;
     padding: 0 20px;
     color: #6A6A6A;
+    cursor: pointer;
 }
 .titre>span{
     display: block;
@@ -23,6 +24,12 @@
     height: 16px;
     width: 16px;
     border-radius: 2px;
+    transition: 0s;
+   
+}
+.messageList li:hover  .titre>span{
+    transform: rotate(360deg);
+    transition:  0.5s;
 }
 .titre{
     display: flex;
