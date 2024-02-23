@@ -1,10 +1,14 @@
 import { isMobile } from "react-device-detect";
 import NavBar from "../../components/NavBar/NavBar";
+
 import SideBar from "../../components/SideBar/SideBar";
-import WorkSpaceContain from "../../components/WorkSpaceContain/WorkSpaceContain";
+
+import DndContent from "../../components/DndContent/DndContent";
 import BetterExp from "../../components/BetterExp/BetterExp";
 
-const WorkSpace = () => {
+function Project() {
+  // create state
+
   if (isMobile) {
     return <BetterExp />;
   }
@@ -13,11 +17,11 @@ const WorkSpace = () => {
     <>
       <NavBar />
       <div style={{ display: "flex", width: "100%", height: "90vh" }}>
-        <SideBar choix={1} />
-        <WorkSpaceContain />
+        <SideBar choix={4} />
+        <DndContent />
       </div>
     </>
   );
-};
+}
 
-export default WorkSpace;
+export default Project;
