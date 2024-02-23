@@ -2,18 +2,15 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-
-import WorkSpace from "./pages/WorkSpace/WorkSpace.jsx";
-import LandingPage from "./pages/LandingPage/LandingPage.jsx";
-import Test from "./pages/Project/Test.jsx";
-import Projects from "./pages/Projects/Projects.jsx";
-import Project from "./pages/Project/Project.jsx";
-
-import Dashboard from "./pages/Dashboard/Dashboard.jsx";
-import Inbox from "./pages/Inbox/Inbox.jsx";
-import Signin from "./pages/Signin/Signin.jsx";
-import SignUp from "./pages/SignUp/SignUp.jsx";
-
+import LandingPage from "./pages/LandingPage/LandingPage";
+import WorkSpace from "./pages/WorkSpace/WorkSpace";
+import Test from "./pages/Project/Test";
+import Inbox from "./pages/Inbox/Inbox";
+import Dashboard from "./pages/Dashboard/Dashboard";
+import Projects from "./pages/Projects/Projects";
+import Project from "./pages/Project/Project";
+import Signin from "./pages/Signin/Signin";
+import SignUp from "./pages/SignUp/SignUp";
 const router = createBrowserRouter([
   {
     path: "/",
