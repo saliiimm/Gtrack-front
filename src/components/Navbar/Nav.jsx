@@ -4,7 +4,6 @@ import Logo from "../../assets/logoGhack.svg";
 const Nav = () => {
   const [isScrolled, setIsScrolled] = useState(false);
 
-  // Event listener for window scroll
   useEffect(() => {
     const handleScroll = () => {
       setIsScrolled(window.scrollY > 0);
@@ -20,7 +19,7 @@ const Nav = () => {
   return (
     <nav className={isScrolled ? "scrolled" : ""}>
       <div className="nav-left">
-        <img src={Logo} /> <p>Hack</p>
+        <img src={Logo} /> <p>Track</p>
       </div>
       <ul>
         <li>Home</li>
