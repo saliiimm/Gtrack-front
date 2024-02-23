@@ -29,7 +29,7 @@ const FriendlyTolls = () => {
   ];
 
   return (
-    <div className="board">
+    <section className="board" id="pricing">
       <div className="title-board">
         <h2>User Friendly Tools</h2>
       </div>
@@ -47,7 +47,7 @@ const FriendlyTolls = () => {
           </div>
         ))}
       </div>
-    </div>
+    </section>
   );
 };
 

@@ -2,7 +2,7 @@ import { FaArrowRight } from "react-icons/fa6";
 import "./Home.css";
 const Home = () => {
   return (
-    <section className="home-section">
+    <section className="home-section" id="home">
       <button className="newsletter">
         Suscribe to NewsLetter <FaArrowRight />
       </button>

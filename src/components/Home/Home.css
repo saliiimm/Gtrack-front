@@ -80,3 +80,14 @@
     font-size: 35px;
   }
 }
+
+@media screen and (max-width: 435px) {
+  .home-section h2 {
+    font-size: 25px;
+    margin-top: 5px;
+    max-width: 75%;
+  }
+  .home-section p {
+    font-size: 12px;
+  }
+}

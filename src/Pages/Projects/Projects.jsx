@@ -1,8 +1,13 @@
+import { isMobile, MobileView } from "react-device-detect";
 import ProjectsContent from "../../components/ProjectsContent/ProjectsContent";
 import NavBar from "../../components/NavBar/NavBar";
 import SideBar from "../../components/SideBar/SideBar";
-
+import BetterExp from "../../components/BetterExp/BetterExp";
 const Projects = () => {
+  if (isMobile || MobileView) {
+    return <BetterExp />;
+  }
+
   return (
     <>
       <NavBar />

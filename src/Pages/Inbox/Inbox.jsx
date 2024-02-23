@@ -1,8 +1,13 @@
+import { isMobile, MobileView } from "react-device-detect";
 import InboxContent from "../../components/InboxContent/InboxContent";
 import NavBar from "../../components/NavBar/NavBar";
 import SideBar from "../../components/SideBar/SideBar";
-
+import BetterExp from "../../components/BetterExp/BetterExp";
 const Inbox = () => {
+  if (isMobile || MobileView) {
+    return <BetterExp />;
+  }
+
   return (
     <>
       <NavBar />
