@@ -1,8 +1,11 @@
 
+
 import "./InboxContent.css"
 import { FiUser } from "react-icons/fi";
 
+
 const InboxContent = () => {
+ 
     return (
         <div className="WSC">
       <div className="title">
@@ -20,6 +23,7 @@ const InboxContent = () => {
             <li><div className="titre"><span></span> <h4 >Here we write the title of the task </h4> </div> <div className="username"><FiUser/> <span>username</span></div>   <div className="date">Feb 11</div></li>
           
          </ul>
+      
       </div>
         
     </div>

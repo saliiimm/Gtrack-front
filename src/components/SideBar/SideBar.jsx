@@ -18,7 +18,7 @@ const SideBar = ({ choix }) => {
             <span>Inbox</span>
           </li>
         </Link>
-        <Link>
+        <Link to="/Dashboard">
           {" "}
           <li className={choix == 3 ? "active-Page" : ""}>
             <FiPieChart /> <span>Dashboard</span>
