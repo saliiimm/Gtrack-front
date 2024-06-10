@@ -1,5 +1,6 @@
 import "./Collaboration.css";
-import CollabImg from "../../assets/CollabImg.svg";
+import CollabImg from "../../assets/Capture d’écran 2024-06-09 203526.jpg";
+import phone from "../../assets/iPhone 12 Pro Max.png";
 const Collaboration = () => {
   return (
     <section className="collaboration-section" id="collaboration">
@@ -18,7 +19,8 @@ const Collaboration = () => {
       </div>
       <div className="part-img">
         <div className="bg"></div>
-        <img src={CollabImg} alt="" />
+        <img className="CollabImg" src={CollabImg} alt="" />
+        <img className="phone" src={phone} alt="" />
       </div>
     </section>
   );

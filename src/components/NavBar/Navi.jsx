@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import "./Navi.css"
-import Logo from "../../assets/logoGhack.svg";
+import Logo from "../../assets/Component 4.png";
 import { FiMenu, FiX } from "react-icons/fi";
 import { Link } from "react-router-dom";
 import { HashLink } from "react-router-hash-link";
@@ -41,7 +41,7 @@ const Navi = () => {
     <nav className={isScrolled ? "scrolled" : ""}>
       <Link to="/">
         <div className="nav-left">
-          <img src={Logo} /> <p>Track</p>
+          <img src={Logo} /> 
         </div>
       </Link>
 

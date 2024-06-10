@@ -25,6 +25,9 @@ nav.scrolled {
   justify-content: flex-end;
   gap: 3px;
 }
+.nav-left img{
+width: 100px;
+}
 .nav-right {
   display: flex;
   align-items: flex-end;
