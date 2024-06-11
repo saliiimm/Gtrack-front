@@ -66,7 +66,14 @@
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
 }
 .borad-box button {
-  background-color: black;
+  background: rgb(0, 102, 255);
+  background: linear-gradient(
+    90deg,
+    rgb(0, 102, 255, 1) 0%,
+    rgba(250, 0, 255, 1) 100%
+  );
+  color: white;
+  border: none;
   padding: 15px 25px;
   color: whitesmoke;
   border-radius: 10px;
@@ -93,7 +100,13 @@
   top: 0;
   width: 0%;
   height: 3px;
-  background-color: #625df5;
+  background: rgb(0, 102, 255);
+  background: linear-gradient(
+    90deg,
+    rgb(0, 102, 255, 1) 0%,
+    rgba(250, 0, 255, 1) 100%
+  );
+  color: white;
   transition: 0.4s;
 }
 .borad-box:hover hr {

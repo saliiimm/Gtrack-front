@@ -5,16 +5,14 @@ const Collaboration = () => {
   return (
     <section className="collaboration-section" id="collaboration">
       <div className="part-text">
-        <h2>Improve Collaboration</h2>{" "}
+        <h2>Optimisez vos communications </h2>{" "}
         <p>
           <span>
             {" "}
-            Get your teams working together more closely, even if they’re far
-            apart.
+            Fini les quiproquo avec Oiko!Grâce aux logiciel GMAO 
+            {" "} 
           </span>
-          Centralize project-related communications in one place, brainstorm
-          ideas with Whiteboards, and draft plans together with collaborative
-          Docs.
+           les communications entre vos différentes équipes ne peuvent être plus clair et concises.Plus de mauvaise surprises, chaque employé reçoit ce qu'il doit faire en un éclair
         </p>
       </div>
       <div className="part-img">

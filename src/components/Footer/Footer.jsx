@@ -3,7 +3,7 @@ const Footer = () => {
   return (
     <footer id="about-us">
       <p>
-        Made by <span>CTRL-ALT-CODE</span> © All rights reserved
+        Made by <span>Oiko</span> © All rights reserved
       </p>
     </footer>
   );

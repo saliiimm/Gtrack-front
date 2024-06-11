@@ -64,11 +64,11 @@ const Navi = () => {
           <FiX />
         </div>
         <ul>
-          <HashLink to="#home" smooth scroll={(el) => scrollWithOffset(el, 0)}>
-            <li>Home</li>
+          <HashLink to="/#home" smooth scroll={(el) => scrollWithOffset(el, 0)}>
+            <li>Accueil</li>
           </HashLink>
           <HashLink
-            to="#collaboration"
+            to="/#collaboration"
             smooth
             scroll={(el) => scrollWithOffset(el, 70)}
           >
@@ -76,28 +76,34 @@ const Navi = () => {
             <li>Solution</li>
           </HashLink>
           <HashLink
-            to="#pricing"
+            to="/#Partener"
             smooth
             scroll={(el) => scrollWithOffset(el, 70)}
           >
             {" "}
-            <li>Pricing</li>
+            <li>Nos Partenaires</li>
           </HashLink>
           <HashLink
-            to="#about-us"
+            to="/#pricing"
             smooth
             scroll={(el) => scrollWithOffset(el, 70)}
           >
             {" "}
-            <li>About Us</li>
+            <li>Info</li>
+          </HashLink>
+          <HashLink
+            to="/#about-us"
+            smooth
+            scroll={(el) => scrollWithOffset(el, 70)}
+          >
+            {" "}
+            <li>À propos de nous</li>
           </HashLink>
         </ul>
         <div className="nav-right">
-          <Link to="/signup">
-            <button>Register</button>
-          </Link>
-          <Link to="/signin">
-            <button className="gradient">Log In</button>
+       
+          <Link to="/Contact">
+            <button className="gradient">Contact</button>
           </Link>
         </div>
       </div>
